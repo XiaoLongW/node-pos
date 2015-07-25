@@ -15,3 +15,4 @@ var Pos = require('./lib/pos.js');
 var Cart = require('./lib/cart.js');
 var Scanner = require('./lib/scanner.js');
 var Promotion = require('./lib/promotion.js');
+var PromotionCalculator = require('./lib/promotion-calculator.js');
