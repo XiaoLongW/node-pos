@@ -1,0 +1,23 @@
+{
+  "name": "node-pos",
+  "version": "0.1.0",
+  "description": "node.js",
+  "main": "./lib/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node ./node-pos.js",
+    "start": "node ./node-pos.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XiaoLongW/node-pos.git"
+  },
+  "author": "XiaoLongW",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/XiaoLongW/node-pos/issues"
+  },
+  "homepage": "https://github.com/XiaoLongW/node-pos#readme"
+}
