@@ -11,4 +11,5 @@
 //   console.log((pos.printReceipt());
 var Item = require('./lib/item.js');
 var CartItem = require('./lib/cart-item.js');
-var Pos = require('./lib/pos.js')
+var Pos = require('./lib/pos.js');
+var Cart = require('./lib/cart.js');
