@@ -1,9 +1,8 @@
-var xx = require('../node-pos.js');
+var beTest = require('../node-pos.js');
 var Utils = require('../lib/utils.js');
-var assert = require("assert");
+
 describe('node-pos', function() {
   var allItems, inputs, dateDigitToString;
-
   beforeEach(function() {
     allItems = Utils.loadAllItems();
     inputs = [
@@ -23,10 +22,8 @@ describe('node-pos', function() {
   });
 
   it('should print correct text', function() {
-
-    //spyOn(console, 'log');
-
-    //xx.printReceipt(inputs);
+    spyOn(console, 'log');
+    beTest.printReceipt(inputs);
 
     var currentDate = new Date(),
       year = dateDigitToString(currentDate.getFullYear()),
@@ -52,9 +49,6 @@ describe('node-pos', function() {
       '总计：51.00(元)\n' +
       '节省：7.50(元)\n' +
       '**********************';
-   assert.equal(expectText, xx.printReceipt(inputs));
-  // done();
-   //expect(xx.printReceipt(inputs)).toHaveBeenCalledWith(expectText);
+    expect(console.log).toHaveBeenCalledWith(expectText);
   });
-
 });

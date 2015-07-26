@@ -7,7 +7,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "mocha ./test/userTest.js",
+    "test": "jasmine-node ./test/node-pos.spec.js",
     "start": "node ./node-pos.js"
   },
   "repository": {
