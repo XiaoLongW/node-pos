@@ -2,13 +2,18 @@
   "name": "node-pos",
   "version": "0.1.0",
   "description": "node.js",
-  "main": "./lib/index.js",
+  "main": "./main.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
      "test": "jasmine-node ./test/node-pos.spec.js",
      "start": "node ./node-pos.js"
+  },
+  "devDependencies": {
+    "jasmine": "~2.3.1",
+    "fs":"~0.0.2",
+    "lib":"~0.1.0"
   },
   "repository": {
     "type": "git",
