@@ -2,13 +2,13 @@
   "name": "node-pos",
   "version": "0.1.0",
   "description": "node.js",
-  "main": "./main.js",
+  "main": "./app.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
-     "test": "jasmine-node ./test/node-pos.spec.js",
-     "start": "node ./node-pos.js"
+     "test": "jasmine ./spec/scanner-spec.js",
+     "start": "node ./app.js"
   },
   "devDependencies": {
     "jasmine": "~2.3.1",
