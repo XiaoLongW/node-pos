@@ -7,7 +7,7 @@
     "test": "test"
   },
   "scripts": {
-     "test": "jasmine ./spec/scanner-spec.js",
+     "test": "jasmine ./spec/two-get-one-spec.js",
      "start": "node ./app.js"
   },
   "devDependencies": {
